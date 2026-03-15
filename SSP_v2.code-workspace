@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "SSP_v2",
+			"path": "."
+		},
+		{
+			"name": "research",
+			"path": "../../SSP_project/research"
+		}
+	],
+	"settings": {}
+}
