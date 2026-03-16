@@ -33,7 +33,6 @@ FEATURE_COLS = [
     "control_of_corruption",
     "employment_agriculture",
     "gini_coefficient",
-    "temperature",
 ]
 
 # ── Reproducibility ────────────────────────────────────────────────────────────
