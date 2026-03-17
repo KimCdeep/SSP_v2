@@ -1,0 +1,10 @@
+variable,pct_missing_before,pct_missing_after,pct_imputed
+gdp,20.0,16.37,3.63
+hdi,31.97,27.16,4.81
+control_of_corruption,37.99,16.37,21.62
+employment_agriculture,27.98,16.37,11.61
+gini_coefficient,73.73,16.37,57.36
+poverty_3,20.0,16.37,3.63
+poverty_4_20,20.0,16.37,3.63
+poverty_8_30,69.77,69.77,0.0
+poverty_10,69.77,69.77,0.0

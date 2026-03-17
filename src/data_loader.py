@@ -88,22 +88,47 @@ def load_historical_gini() -> pd.DataFrame:
     )
 
 
+def _long_csv_to_long(filepath: Path, value_name: str) -> pd.DataFrame:
+    """
+    Load a pre-melted (long-format) CSV with columns like
+    'country', 'year', and a value column. Renames to match standard schema.
+    """
+    df = pd.read_csv(filepath)
+    ratio_col = [c for c in df.columns if c not in ("country", "year")][0]
+    df = df.rename(columns={"country": "country_name", ratio_col: value_name})
+    if "country_code" not in df.columns:
+        df["country_code"] = pd.NA
+    df["year"] = df["year"].astype(int)
+    df[value_name] = pd.to_numeric(df[value_name], errors="coerce")
+    return df
+
+
 def load_historical_poverty(threshold: str = "$3") -> pd.DataFrame:
     """
     threshold: one of '$3', '$4.20', '$8.30', '$10'
     """
-    filename_map = {
+    # $3 and $4.20 are standard World Bank wide-format CSVs
+    wide_files = {
         "$3":    "POV_3$_1963_2024.csv",
         "$4.20": "POV_4.20$_1963_2024.csv",
+    }
+    # $8.30 and $10 are already in long format (country, year, value)
+    long_files = {
         "$8.30": "POV_8.30$_1963_2024.csv",
         "$10":   "POV_10$_1963_2024.csv",
     }
-    if threshold not in filename_map:
-        raise ValueError(f"Unknown threshold '{threshold}'. Choose from {list(filename_map)}")
-    return _wb_wide_to_long(
-        DATA_RAW_DIR / filename_map[threshold],
-        value_name="poverty_headcount_ratio",
-    )
+    if threshold in wide_files:
+        return _wb_wide_to_long(
+            DATA_RAW_DIR / wide_files[threshold],
+            value_name="poverty_headcount_ratio",
+        )
+    elif threshold in long_files:
+        return _long_csv_to_long(
+            DATA_RAW_DIR / long_files[threshold],
+            value_name="poverty_headcount_ratio",
+        )
+    else:
+        raise ValueError(f"Unknown threshold '{threshold}'. Choose from {list(wide_files) + list(long_files)}")
 
 
 # ── Forecast loaders ───────────────────────────────────────────────────────────

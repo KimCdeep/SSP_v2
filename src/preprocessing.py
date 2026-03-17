@@ -97,12 +97,25 @@ ISO3_TO_REGION: dict[str, str] = {
 
 def load_wb_historical(filepath: Path, value_col: str) -> pd.DataFrame:
     """
-    Load a World Bank wide CSV (skiprows=3), keep country rows only,
+    Load a World Bank wide CSV, keep country rows only,
     melt to long format, filter to YEARS_HIST.
+
+    Auto-detects the header row by searching for "Country Name" in the
+    first 10 lines, so it works regardless of whether blank separator
+    lines contain commas or are truly empty.
 
     Returns columns: [country_name, country_code, year, <value_col>]
     """
-    df = pd.read_csv(filepath, skiprows=3)
+    # Auto-detect header row
+    header_row = 0
+    with open(filepath, "r", encoding="utf-8-sig") as f:
+        for i, line in enumerate(f):
+            if "Country Name" in line:
+                header_row = i
+                break
+            if i >= 10:
+                break
+    df = pd.read_csv(filepath, skiprows=header_row)
     df.columns = df.columns.str.strip().str.replace('"', '')
 
     # Keep only actual countries (exclude WB regional aggregates)
@@ -121,6 +134,34 @@ def load_wb_historical(filepath: Path, value_col: str) -> pd.DataFrame:
     )
     df["year"] = df["year"].astype(int)
     df[value_col] = pd.to_numeric(df[value_col], errors="coerce")
+    return df.sort_values(["country_name", "year"]).reset_index(drop=True)
+
+
+def load_poverty_long(filepath: Path, value_col: str) -> pd.DataFrame:
+    """
+    Load a pre-melted (long-format) poverty CSV with columns like
+    'country', 'year', and a headcount ratio column.
+
+    Renames columns to match the standard schema and filters to YEARS_HIST.
+    Returns columns: [country_name, country_code, year, <value_col>]
+    """
+    df = pd.read_csv(filepath)
+
+    # Identify the headcount ratio column (the one that isn't 'country' or 'year')
+    ratio_col = [c for c in df.columns if c not in ("country", "year")][0]
+
+    df = df.rename(columns={"country": "country_name", ratio_col: value_col})
+    df["year"] = df["year"].astype(int)
+    df[value_col] = pd.to_numeric(df[value_col], errors="coerce")
+
+    # Filter to YEARS_HIST
+    df = df[df["year"].isin(YEARS_HIST)].copy()
+
+    # Add country_code via ISO3_TO_REGION lookup (reverse isn't available,
+    # so we leave it blank — merge_to_panel will fill it from other sources)
+    if "country_code" not in df.columns:
+        df["country_code"] = np.nan
+
     return df.sort_values(["country_name", "year"]).reset_index(drop=True)
 
 
@@ -198,7 +239,8 @@ def _regional_median_fill(
     global_medians = df.groupby("year")[value_col].transform("median")
     df[value_col] = df[value_col].fillna(global_medians)
 
-    df = df.drop(columns=["_region"])
+    # _region may already be dropped by groupby().apply() in pandas >= 3.0
+    df = df.drop(columns=["_region"], errors="ignore")
     return df
 
 
