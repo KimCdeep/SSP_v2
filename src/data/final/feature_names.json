@@ -1,0 +1,15 @@
+[
+  "log_gdp_pc",
+  "log_population",
+  "hdi",
+  "control_of_corruption",
+  "employment_agriculture",
+  "gini_coefficient",
+  "gdp_growth_5y",
+  "region_EAP",
+  "region_ECA",
+  "region_LAC",
+  "region_MENA",
+  "region_NAC",
+  "region_SAS"
+]

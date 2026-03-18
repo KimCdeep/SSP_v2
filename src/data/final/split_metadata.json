@@ -1,0 +1,41 @@
+{
+  "train_year_range": [
+    1996,
+    2015
+  ],
+  "test_year_range": [
+    2016,
+    2023
+  ],
+  "n_train_rows": 3180,
+  "n_test_rows": 1113,
+  "n_train_countries": 273,
+  "n_test_countries": 265,
+  "n_features": 13,
+  "feature_cols": [
+    "log_gdp_pc",
+    "log_population",
+    "hdi",
+    "control_of_corruption",
+    "employment_agriculture",
+    "gini_coefficient",
+    "gdp_growth_5y",
+    "region_EAP",
+    "region_ECA",
+    "region_LAC",
+    "region_MENA",
+    "region_NAC",
+    "region_SAS"
+  ],
+  "target_cols": [
+    "poverty_3",
+    "poverty_4_20",
+    "poverty_8_30",
+    "poverty_10"
+  ],
+  "primary_target": "poverty_3",
+  "n_cv_folds": 5,
+  "scaler": "StandardScaler",
+  "gdp_note": "Total GDP in current USD (NY.GDP.MKTP.CD) / population",
+  "population_source": "IIASA Excel Historical Reference, interpolated from 5-yr steps"
+}

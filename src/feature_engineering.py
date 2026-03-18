@@ -290,7 +290,9 @@ def get_cv_folds(
 
     Each fold contains a mix of high, middle, and low poverty countries.
     """
-    strata = _country_income_strata(train_df.loc[X_train.index])
+    strata = _country_income_strata(
+        train_df.dropna(subset=FINAL_FEATURE_COLS).reset_index(drop=True)
+    )
     skf    = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=random_state)
     return list(skf.split(X_train, strata))
 

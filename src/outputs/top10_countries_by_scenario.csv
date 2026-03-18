@@ -1,0 +1,481 @@
+scenario,poverty_threshold,year,rank,country_name,country_code,predicted_poverty,extrapolation_flag
+SSP1,$3,2030,1,Algeria,DZA,100.0,False
+SSP1,$3,2030,2,Morocco,MAR,100.0,False
+SSP1,$3,2030,3,Namibia,NAM,100.0,False
+SSP1,$3,2030,4,Nepal,NPL,100.0,False
+SSP1,$3,2030,5,Netherlands,NLD,100.0,False
+SSP1,$3,2030,6,New Zealand,NZL,100.0,False
+SSP1,$3,2030,7,Nicaragua,NIC,100.0,False
+SSP1,$3,2030,8,Niger,NER,100.0,False
+SSP1,$3,2030,9,Nigeria,NGA,100.0,False
+SSP1,$3,2030,10,North Macedonia,MKD,100.0,False
+SSP1,$3,2050,1,Algeria,DZA,100.0,False
+SSP1,$3,2050,2,Morocco,MAR,100.0,False
+SSP1,$3,2050,3,Namibia,NAM,100.0,False
+SSP1,$3,2050,4,Nepal,NPL,100.0,False
+SSP1,$3,2050,5,Netherlands,NLD,100.0,False
+SSP1,$3,2050,6,New Zealand,NZL,100.0,False
+SSP1,$3,2050,7,Nicaragua,NIC,100.0,False
+SSP1,$3,2050,8,Niger,NER,100.0,False
+SSP1,$3,2050,9,Nigeria,NGA,100.0,False
+SSP1,$3,2050,10,North Macedonia,MKD,100.0,False
+SSP1,$3,2075,1,Algeria,DZA,100.0,True
+SSP1,$3,2075,2,Morocco,MAR,100.0,True
+SSP1,$3,2075,3,Namibia,NAM,100.0,True
+SSP1,$3,2075,4,Nepal,NPL,100.0,True
+SSP1,$3,2075,5,Netherlands,NLD,100.0,True
+SSP1,$3,2075,6,New Zealand,NZL,100.0,True
+SSP1,$3,2075,7,Nicaragua,NIC,100.0,True
+SSP1,$3,2075,8,Niger,NER,100.0,True
+SSP1,$3,2075,9,Nigeria,NGA,100.0,True
+SSP1,$3,2075,10,North Macedonia,MKD,100.0,True
+SSP1,$3,2100,1,Algeria,DZA,100.0,True
+SSP1,$3,2100,2,Morocco,MAR,100.0,True
+SSP1,$3,2100,3,Namibia,NAM,100.0,True
+SSP1,$3,2100,4,Nepal,NPL,100.0,True
+SSP1,$3,2100,5,Netherlands,NLD,100.0,True
+SSP1,$3,2100,6,New Zealand,NZL,100.0,True
+SSP1,$3,2100,7,Nicaragua,NIC,100.0,True
+SSP1,$3,2100,8,Niger,NER,100.0,True
+SSP1,$3,2100,9,Nigeria,NGA,100.0,True
+SSP1,$3,2100,10,North Macedonia,MKD,100.0,True
+SSP1,$4.20,2030,1,Algeria,DZA,100.0,False
+SSP1,$4.20,2030,2,Morocco,MAR,100.0,False
+SSP1,$4.20,2030,3,Namibia,NAM,100.0,False
+SSP1,$4.20,2030,4,Nepal,NPL,100.0,False
+SSP1,$4.20,2030,5,Netherlands,NLD,100.0,False
+SSP1,$4.20,2030,6,New Zealand,NZL,100.0,False
+SSP1,$4.20,2030,7,Nicaragua,NIC,100.0,False
+SSP1,$4.20,2030,8,Niger,NER,100.0,False
+SSP1,$4.20,2030,9,Nigeria,NGA,100.0,False
+SSP1,$4.20,2030,10,North Macedonia,MKD,100.0,False
+SSP1,$4.20,2050,1,Algeria,DZA,100.0,False
+SSP1,$4.20,2050,2,Morocco,MAR,100.0,False
+SSP1,$4.20,2050,3,Namibia,NAM,100.0,False
+SSP1,$4.20,2050,4,Nepal,NPL,100.0,False
+SSP1,$4.20,2050,5,Netherlands,NLD,100.0,False
+SSP1,$4.20,2050,6,New Zealand,NZL,100.0,False
+SSP1,$4.20,2050,7,Nicaragua,NIC,100.0,False
+SSP1,$4.20,2050,8,Niger,NER,100.0,False
+SSP1,$4.20,2050,9,Nigeria,NGA,100.0,False
+SSP1,$4.20,2050,10,North Macedonia,MKD,100.0,False
+SSP1,$4.20,2075,1,Algeria,DZA,100.0,True
+SSP1,$4.20,2075,2,Morocco,MAR,100.0,True
+SSP1,$4.20,2075,3,Namibia,NAM,100.0,True
+SSP1,$4.20,2075,4,Nepal,NPL,100.0,True
+SSP1,$4.20,2075,5,Netherlands,NLD,100.0,True
+SSP1,$4.20,2075,6,New Zealand,NZL,100.0,True
+SSP1,$4.20,2075,7,Nicaragua,NIC,100.0,True
+SSP1,$4.20,2075,8,Niger,NER,100.0,True
+SSP1,$4.20,2075,9,Nigeria,NGA,100.0,True
+SSP1,$4.20,2075,10,North Macedonia,MKD,100.0,True
+SSP1,$4.20,2100,1,Algeria,DZA,100.0,True
+SSP1,$4.20,2100,2,Morocco,MAR,100.0,True
+SSP1,$4.20,2100,3,Namibia,NAM,100.0,True
+SSP1,$4.20,2100,4,Nepal,NPL,100.0,True
+SSP1,$4.20,2100,5,Netherlands,NLD,100.0,True
+SSP1,$4.20,2100,6,New Zealand,NZL,100.0,True
+SSP1,$4.20,2100,7,Nicaragua,NIC,100.0,True
+SSP1,$4.20,2100,8,Niger,NER,100.0,True
+SSP1,$4.20,2100,9,Nigeria,NGA,100.0,True
+SSP1,$4.20,2100,10,North Macedonia,MKD,100.0,True
+SSP1,$8.30,2030,1,Zambia,ZMB,68.688,False
+SSP1,$8.30,2030,2,Comoros,COM,63.995,False
+SSP1,$8.30,2030,3,Lesotho,LSO,63.854,False
+SSP1,$8.30,2030,4,Central African Republic,CAF,63.284,False
+SSP1,$8.30,2030,5,Rwanda,RWA,62.246,False
+SSP1,$8.30,2030,6,Guinea-Bissau,GNB,60.761,False
+SSP1,$8.30,2030,7,Burkina Faso,BFA,57.757,False
+SSP1,$8.30,2030,8,Pakistan,PAK,57.38,False
+SSP1,$8.30,2030,9,Nigeria,NGA,56.905,False
+SSP1,$8.30,2030,10,Senegal,SEN,56.749,False
+SSP1,$8.30,2050,1,Zambia,ZMB,59.77,False
+SSP1,$8.30,2050,2,Comoros,COM,58.437,False
+SSP1,$8.30,2050,3,Central African Republic,CAF,58.151,False
+SSP1,$8.30,2050,4,Rwanda,RWA,56.087,False
+SSP1,$8.30,2050,5,Chad,TCD,54.423,False
+SSP1,$8.30,2050,6,Guinea-Bissau,GNB,53.452,False
+SSP1,$8.30,2050,7,Madagascar,MDG,51.933,False
+SSP1,$8.30,2050,8,Benin,BEN,50.19,False
+SSP1,$8.30,2050,9,Mozambique,MOZ,49.44,False
+SSP1,$8.30,2050,10,Ethiopia,ETH,49.093,False
+SSP1,$8.30,2075,1,Zambia,ZMB,47.306,True
+SSP1,$8.30,2075,2,Central African Republic,CAF,45.267,True
+SSP1,$8.30,2075,3,Comoros,COM,44.388,True
+SSP1,$8.30,2075,4,Rwanda,RWA,44.142,True
+SSP1,$8.30,2075,5,Chad,TCD,40.006,True
+SSP1,$8.30,2075,6,Mozambique,MOZ,37.778,True
+SSP1,$8.30,2075,7,Burundi,BDI,37.013,True
+SSP1,$8.30,2075,8,Madagascar,MDG,36.569,True
+SSP1,$8.30,2075,9,Guinea-Bissau,GNB,36.523,True
+SSP1,$8.30,2075,10,Burkina Faso,BFA,35.652,True
+SSP1,$8.30,2100,1,Comoros,COM,29.1,True
+SSP1,$8.30,2100,2,Zambia,ZMB,28.811,True
+SSP1,$8.30,2100,3,South Africa,ZAF,25.868,True
+SSP1,$8.30,2100,4,Rwanda,RWA,25.533,True
+SSP1,$8.30,2100,5,Central African Republic,CAF,25.435,True
+SSP1,$8.30,2100,6,Guinea-Bissau,GNB,23.484,True
+SSP1,$8.30,2100,7,Namibia,NAM,23.101,True
+SSP1,$8.30,2100,8,Chad,TCD,20.475,True
+SSP1,$8.30,2100,9,Mozambique,MOZ,20.003,True
+SSP1,$8.30,2100,10,Dominican Republic,DOM,19.514,True
+SSP1,$10,2030,1,Central African Republic,CAF,74.496,False
+SSP1,$10,2030,2,Guinea-Bissau,GNB,72.015,False
+SSP1,$10,2030,3,Comoros,COM,69.972,False
+SSP1,$10,2030,4,Democratic Republic of the Congo,COD,69.562,False
+SSP1,$10,2030,5,Rwanda,RWA,69.561,False
+SSP1,$10,2030,6,Zambia,ZMB,69.348,False
+SSP1,$10,2030,7,Nigeria,NGA,67.532,False
+SSP1,$10,2030,8,Lesotho,LSO,67.457,False
+SSP1,$10,2030,9,Chad,TCD,67.165,False
+SSP1,$10,2030,10,Pakistan,PAK,66.336,False
+SSP1,$10,2050,1,Central African Republic,CAF,66.079,False
+SSP1,$10,2050,2,Zambia,ZMB,65.204,False
+SSP1,$10,2050,3,Comoros,COM,65.05,False
+SSP1,$10,2050,4,Rwanda,RWA,64.108,False
+SSP1,$10,2050,5,Guinea-Bissau,GNB,62.819,False
+SSP1,$10,2050,6,Ethiopia,ETH,60.223,False
+SSP1,$10,2050,7,Chad,TCD,58.465,False
+SSP1,$10,2050,8,Tanzania,TZA,57.775,False
+SSP1,$10,2050,9,Mozambique,MOZ,57.376,False
+SSP1,$10,2050,10,Democratic Republic of the Congo,COD,56.861,False
+SSP1,$10,2075,1,Zambia,ZMB,57.662,True
+SSP1,$10,2075,2,Central African Republic,CAF,56.374,True
+SSP1,$10,2075,3,Comoros,COM,56.369,True
+SSP1,$10,2075,4,Rwanda,RWA,52.658,True
+SSP1,$10,2075,5,Chad,TCD,49.583,True
+SSP1,$10,2075,6,Guinea-Bissau,GNB,47.909,True
+SSP1,$10,2075,7,Mozambique,MOZ,46.739,True
+SSP1,$10,2075,8,Burkina Faso,BFA,45.361,True
+SSP1,$10,2075,9,Madagascar,MDG,45.078,True
+SSP1,$10,2075,10,Sudan,SDN,44.824,True
+SSP1,$10,2100,1,Zambia,ZMB,37.259,True
+SSP1,$10,2100,2,Sao Tome and Principe,STP,35.855,True
+SSP1,$10,2100,3,Rwanda,RWA,35.213,True
+SSP1,$10,2100,4,Comoros,COM,35.015,True
+SSP1,$10,2100,5,Central African Republic,CAF,34.056,True
+SSP1,$10,2100,6,Niger,NER,31.416,True
+SSP1,$10,2100,7,South Africa,ZAF,30.461,True
+SSP1,$10,2100,8,Guinea-Bissau,GNB,29.93,True
+SSP1,$10,2100,9,Turkmenistan,TKM,28.555,True
+SSP1,$10,2100,10,Mozambique,MOZ,27.993,True
+SSP4,$3,2030,1,Algeria,DZA,100.0,False
+SSP4,$3,2030,2,Morocco,MAR,100.0,False
+SSP4,$3,2030,3,Namibia,NAM,100.0,False
+SSP4,$3,2030,4,Nepal,NPL,100.0,False
+SSP4,$3,2030,5,Netherlands,NLD,100.0,False
+SSP4,$3,2030,6,New Zealand,NZL,100.0,False
+SSP4,$3,2030,7,Nicaragua,NIC,100.0,False
+SSP4,$3,2030,8,Niger,NER,100.0,False
+SSP4,$3,2030,9,Nigeria,NGA,100.0,False
+SSP4,$3,2030,10,North Macedonia,MKD,100.0,False
+SSP4,$3,2050,1,Algeria,DZA,100.0,False
+SSP4,$3,2050,2,Morocco,MAR,100.0,False
+SSP4,$3,2050,3,Namibia,NAM,100.0,False
+SSP4,$3,2050,4,Nepal,NPL,100.0,False
+SSP4,$3,2050,5,Netherlands,NLD,100.0,False
+SSP4,$3,2050,6,New Zealand,NZL,100.0,False
+SSP4,$3,2050,7,Nicaragua,NIC,100.0,False
+SSP4,$3,2050,8,Niger,NER,100.0,False
+SSP4,$3,2050,9,Nigeria,NGA,100.0,False
+SSP4,$3,2050,10,North Macedonia,MKD,100.0,False
+SSP4,$3,2075,1,Algeria,DZA,100.0,True
+SSP4,$3,2075,2,Morocco,MAR,100.0,True
+SSP4,$3,2075,3,Namibia,NAM,100.0,True
+SSP4,$3,2075,4,Nepal,NPL,100.0,True
+SSP4,$3,2075,5,Netherlands,NLD,100.0,True
+SSP4,$3,2075,6,New Zealand,NZL,100.0,True
+SSP4,$3,2075,7,Nicaragua,NIC,100.0,True
+SSP4,$3,2075,8,Niger,NER,100.0,True
+SSP4,$3,2075,9,Nigeria,NGA,100.0,True
+SSP4,$3,2075,10,North Macedonia,MKD,100.0,True
+SSP4,$3,2100,1,Algeria,DZA,100.0,True
+SSP4,$3,2100,2,Morocco,MAR,100.0,True
+SSP4,$3,2100,3,Namibia,NAM,100.0,True
+SSP4,$3,2100,4,Nepal,NPL,100.0,True
+SSP4,$3,2100,5,Netherlands,NLD,100.0,True
+SSP4,$3,2100,6,New Zealand,NZL,100.0,True
+SSP4,$3,2100,7,Nicaragua,NIC,100.0,True
+SSP4,$3,2100,8,Niger,NER,100.0,True
+SSP4,$3,2100,9,Nigeria,NGA,100.0,True
+SSP4,$3,2100,10,North Macedonia,MKD,100.0,True
+SSP4,$4.20,2030,1,Algeria,DZA,100.0,False
+SSP4,$4.20,2030,2,Morocco,MAR,100.0,False
+SSP4,$4.20,2030,3,Namibia,NAM,100.0,False
+SSP4,$4.20,2030,4,Nepal,NPL,100.0,False
+SSP4,$4.20,2030,5,Netherlands,NLD,100.0,False
+SSP4,$4.20,2030,6,New Zealand,NZL,100.0,False
+SSP4,$4.20,2030,7,Nicaragua,NIC,100.0,False
+SSP4,$4.20,2030,8,Niger,NER,100.0,False
+SSP4,$4.20,2030,9,Nigeria,NGA,100.0,False
+SSP4,$4.20,2030,10,North Macedonia,MKD,100.0,False
+SSP4,$4.20,2050,1,Algeria,DZA,100.0,False
+SSP4,$4.20,2050,2,Morocco,MAR,100.0,False
+SSP4,$4.20,2050,3,Namibia,NAM,100.0,False
+SSP4,$4.20,2050,4,Nepal,NPL,100.0,False
+SSP4,$4.20,2050,5,Netherlands,NLD,100.0,False
+SSP4,$4.20,2050,6,New Zealand,NZL,100.0,False
+SSP4,$4.20,2050,7,Nicaragua,NIC,100.0,False
+SSP4,$4.20,2050,8,Niger,NER,100.0,False
+SSP4,$4.20,2050,9,Nigeria,NGA,100.0,False
+SSP4,$4.20,2050,10,North Macedonia,MKD,100.0,False
+SSP4,$4.20,2075,1,Algeria,DZA,100.0,True
+SSP4,$4.20,2075,2,Morocco,MAR,100.0,True
+SSP4,$4.20,2075,3,Namibia,NAM,100.0,True
+SSP4,$4.20,2075,4,Nepal,NPL,100.0,True
+SSP4,$4.20,2075,5,Netherlands,NLD,100.0,True
+SSP4,$4.20,2075,6,New Zealand,NZL,100.0,True
+SSP4,$4.20,2075,7,Nicaragua,NIC,100.0,True
+SSP4,$4.20,2075,8,Niger,NER,100.0,True
+SSP4,$4.20,2075,9,Nigeria,NGA,100.0,True
+SSP4,$4.20,2075,10,North Macedonia,MKD,100.0,True
+SSP4,$4.20,2100,1,Algeria,DZA,100.0,True
+SSP4,$4.20,2100,2,Morocco,MAR,100.0,True
+SSP4,$4.20,2100,3,Namibia,NAM,100.0,True
+SSP4,$4.20,2100,4,Nepal,NPL,100.0,True
+SSP4,$4.20,2100,5,Netherlands,NLD,100.0,True
+SSP4,$4.20,2100,6,New Zealand,NZL,100.0,True
+SSP4,$4.20,2100,7,Nicaragua,NIC,100.0,True
+SSP4,$4.20,2100,8,Niger,NER,100.0,True
+SSP4,$4.20,2100,9,Nigeria,NGA,100.0,True
+SSP4,$4.20,2100,10,North Macedonia,MKD,100.0,True
+SSP4,$8.30,2030,1,Zambia,ZMB,69.741,False
+SSP4,$8.30,2030,2,Rwanda,RWA,67.051,False
+SSP4,$8.30,2030,3,Central African Republic,CAF,66.673,False
+SSP4,$8.30,2030,4,Comoros,COM,66.471,False
+SSP4,$8.30,2030,5,Gambia,GMB,65.867,False
+SSP4,$8.30,2030,6,Lesotho,LSO,65.035,False
+SSP4,$8.30,2030,7,Malawi,MWI,64.111,False
+SSP4,$8.30,2030,8,Guinea-Bissau,GNB,63.923,False
+SSP4,$8.30,2030,9,Namibia,NAM,63.596,False
+SSP4,$8.30,2030,10,Mozambique,MOZ,62.828,False
+SSP4,$8.30,2050,1,Comoros,COM,69.085,False
+SSP4,$8.30,2050,2,Rwanda,RWA,67.748,False
+SSP4,$8.30,2050,3,India,IND,67.63,False
+SSP4,$8.30,2050,4,Zambia,ZMB,67.374,False
+SSP4,$8.30,2050,5,Central African Republic,CAF,66.942,False
+SSP4,$8.30,2050,6,Kenya,KEN,66.655,False
+SSP4,$8.30,2050,7,Gambia,GMB,66.258,False
+SSP4,$8.30,2050,8,Guinea-Bissau,GNB,65.266,False
+SSP4,$8.30,2050,9,Lesotho,LSO,64.936,False
+SSP4,$8.30,2050,10,Eswatini,SWZ,64.902,False
+SSP4,$8.30,2075,1,Kenya,KEN,69.399,True
+SSP4,$8.30,2075,2,Zambia,ZMB,68.292,True
+SSP4,$8.30,2075,3,Central African Republic,CAF,68.026,True
+SSP4,$8.30,2075,4,Comoros,COM,67.459,True
+SSP4,$8.30,2075,5,Lesotho,LSO,66.896,True
+SSP4,$8.30,2075,6,Guinea-Bissau,GNB,65.758,True
+SSP4,$8.30,2075,7,Rwanda,RWA,65.389,True
+SSP4,$8.30,2075,8,Mozambique,MOZ,65.354,True
+SSP4,$8.30,2075,9,Philippines,PHL,64.594,True
+SSP4,$8.30,2075,10,Ghana,GHA,63.222,True
+SSP4,$8.30,2100,1,Kenya,KEN,69.948,True
+SSP4,$8.30,2100,2,Central African Republic,CAF,68.503,True
+SSP4,$8.30,2100,3,Rwanda,RWA,67.302,True
+SSP4,$8.30,2100,4,Comoros,COM,67.274,True
+SSP4,$8.30,2100,5,Mozambique,MOZ,66.811,True
+SSP4,$8.30,2100,6,Lesotho,LSO,65.367,True
+SSP4,$8.30,2100,7,Ghana,GHA,64.345,True
+SSP4,$8.30,2100,8,Zambia,ZMB,63.41,True
+SSP4,$8.30,2100,9,Guinea-Bissau,GNB,62.899,True
+SSP4,$8.30,2100,10,Cameroon,CMR,61.792,True
+SSP4,$10,2030,1,Comoros,COM,77.364,False
+SSP4,$10,2030,2,Zambia,ZMB,75.52,False
+SSP4,$10,2030,3,Central African Republic,CAF,75.263,False
+SSP4,$10,2030,4,Guinea-Bissau,GNB,74.563,False
+SSP4,$10,2030,5,Democratic Republic of the Congo,COD,73.231,False
+SSP4,$10,2030,6,Rwanda,RWA,72.873,False
+SSP4,$10,2030,7,Mozambique,MOZ,72.846,False
+SSP4,$10,2030,8,Lesotho,LSO,72.074,False
+SSP4,$10,2030,9,Malawi,MWI,71.867,False
+SSP4,$10,2030,10,Côte d'Ivoire,CIV,70.729,False
+SSP4,$10,2050,1,Comoros,COM,78.641,False
+SSP4,$10,2050,2,Guinea-Bissau,GNB,75.861,False
+SSP4,$10,2050,3,Central African Republic,CAF,74.591,False
+SSP4,$10,2050,4,Uganda,UGA,73.83,False
+SSP4,$10,2050,5,Zambia,ZMB,73.455,False
+SSP4,$10,2050,6,Rwanda,RWA,73.239,False
+SSP4,$10,2050,7,Lesotho,LSO,71.943,False
+SSP4,$10,2050,8,Cameroon,CMR,71.403,False
+SSP4,$10,2050,9,Pakistan,PAK,71.312,False
+SSP4,$10,2050,10,Democratic Republic of the Congo,COD,71.166,False
+SSP4,$10,2075,1,Central African Republic,CAF,75.437,True
+SSP4,$10,2075,2,Guinea-Bissau,GNB,73.476,True
+SSP4,$10,2075,3,Mozambique,MOZ,73.4,True
+SSP4,$10,2075,4,Zambia,ZMB,73.267,True
+SSP4,$10,2075,5,Rwanda,RWA,73.197,True
+SSP4,$10,2075,6,Comoros,COM,72.285,True
+SSP4,$10,2075,7,Lesotho,LSO,71.459,True
+SSP4,$10,2075,8,Kenya,KEN,71.448,True
+SSP4,$10,2075,9,Malawi,MWI,68.614,True
+SSP4,$10,2075,10,Democratic Republic of the Congo,COD,68.426,True
+SSP4,$10,2100,1,Central African Republic,CAF,76.252,True
+SSP4,$10,2100,2,Rwanda,RWA,73.768,True
+SSP4,$10,2100,3,Chad,TCD,73.73,True
+SSP4,$10,2100,4,Kenya,KEN,72.471,True
+SSP4,$10,2100,5,Comoros,COM,71.681,True
+SSP4,$10,2100,6,Guinea-Bissau,GNB,71.083,True
+SSP4,$10,2100,7,Mozambique,MOZ,70.648,True
+SSP4,$10,2100,8,Ghana,GHA,69.795,True
+SSP4,$10,2100,9,Democratic Republic of the Congo,COD,69.55,True
+SSP4,$10,2100,10,Zambia,ZMB,67.612,True
+SSP5,$3,2030,1,Algeria,DZA,100.0,False
+SSP5,$3,2030,2,Morocco,MAR,100.0,False
+SSP5,$3,2030,3,Namibia,NAM,100.0,False
+SSP5,$3,2030,4,Nepal,NPL,100.0,False
+SSP5,$3,2030,5,Netherlands,NLD,100.0,False
+SSP5,$3,2030,6,New Zealand,NZL,100.0,False
+SSP5,$3,2030,7,Nicaragua,NIC,100.0,False
+SSP5,$3,2030,8,Niger,NER,100.0,False
+SSP5,$3,2030,9,Nigeria,NGA,100.0,False
+SSP5,$3,2030,10,North Macedonia,MKD,100.0,False
+SSP5,$3,2050,1,Algeria,DZA,100.0,False
+SSP5,$3,2050,2,Morocco,MAR,100.0,False
+SSP5,$3,2050,3,Namibia,NAM,100.0,False
+SSP5,$3,2050,4,Nepal,NPL,100.0,False
+SSP5,$3,2050,5,Netherlands,NLD,100.0,False
+SSP5,$3,2050,6,New Zealand,NZL,100.0,False
+SSP5,$3,2050,7,Nicaragua,NIC,100.0,False
+SSP5,$3,2050,8,Niger,NER,100.0,False
+SSP5,$3,2050,9,Nigeria,NGA,100.0,False
+SSP5,$3,2050,10,North Macedonia,MKD,100.0,False
+SSP5,$3,2075,1,Algeria,DZA,100.0,True
+SSP5,$3,2075,2,Morocco,MAR,100.0,True
+SSP5,$3,2075,3,Namibia,NAM,100.0,True
+SSP5,$3,2075,4,Nepal,NPL,100.0,True
+SSP5,$3,2075,5,Netherlands,NLD,100.0,True
+SSP5,$3,2075,6,New Zealand,NZL,100.0,True
+SSP5,$3,2075,7,Nicaragua,NIC,100.0,True
+SSP5,$3,2075,8,Niger,NER,100.0,True
+SSP5,$3,2075,9,Nigeria,NGA,100.0,True
+SSP5,$3,2075,10,North Macedonia,MKD,100.0,True
+SSP5,$3,2100,1,Algeria,DZA,100.0,True
+SSP5,$3,2100,2,Morocco,MAR,100.0,True
+SSP5,$3,2100,3,Namibia,NAM,100.0,True
+SSP5,$3,2100,4,Nepal,NPL,100.0,True
+SSP5,$3,2100,5,Netherlands,NLD,100.0,True
+SSP5,$3,2100,6,New Zealand,NZL,100.0,True
+SSP5,$3,2100,7,Nicaragua,NIC,100.0,True
+SSP5,$3,2100,8,Niger,NER,100.0,True
+SSP5,$3,2100,9,Nigeria,NGA,100.0,True
+SSP5,$3,2100,10,North Macedonia,MKD,100.0,True
+SSP5,$4.20,2030,1,Algeria,DZA,100.0,False
+SSP5,$4.20,2030,2,Morocco,MAR,100.0,False
+SSP5,$4.20,2030,3,Namibia,NAM,100.0,False
+SSP5,$4.20,2030,4,Nepal,NPL,100.0,False
+SSP5,$4.20,2030,5,Netherlands,NLD,100.0,False
+SSP5,$4.20,2030,6,New Zealand,NZL,100.0,False
+SSP5,$4.20,2030,7,Nicaragua,NIC,100.0,False
+SSP5,$4.20,2030,8,Niger,NER,100.0,False
+SSP5,$4.20,2030,9,Nigeria,NGA,100.0,False
+SSP5,$4.20,2030,10,North Macedonia,MKD,100.0,False
+SSP5,$4.20,2050,1,Algeria,DZA,100.0,False
+SSP5,$4.20,2050,2,Morocco,MAR,100.0,False
+SSP5,$4.20,2050,3,Namibia,NAM,100.0,False
+SSP5,$4.20,2050,4,Nepal,NPL,100.0,False
+SSP5,$4.20,2050,5,Netherlands,NLD,100.0,False
+SSP5,$4.20,2050,6,New Zealand,NZL,100.0,False
+SSP5,$4.20,2050,7,Nicaragua,NIC,100.0,False
+SSP5,$4.20,2050,8,Niger,NER,100.0,False
+SSP5,$4.20,2050,9,Nigeria,NGA,100.0,False
+SSP5,$4.20,2050,10,North Macedonia,MKD,100.0,False
+SSP5,$4.20,2075,1,Algeria,DZA,100.0,True
+SSP5,$4.20,2075,2,Morocco,MAR,100.0,True
+SSP5,$4.20,2075,3,Namibia,NAM,100.0,True
+SSP5,$4.20,2075,4,Nepal,NPL,100.0,True
+SSP5,$4.20,2075,5,Netherlands,NLD,100.0,True
+SSP5,$4.20,2075,6,New Zealand,NZL,100.0,True
+SSP5,$4.20,2075,7,Nicaragua,NIC,100.0,True
+SSP5,$4.20,2075,8,Niger,NER,100.0,True
+SSP5,$4.20,2075,9,Nigeria,NGA,100.0,True
+SSP5,$4.20,2075,10,North Macedonia,MKD,100.0,True
+SSP5,$4.20,2100,1,Algeria,DZA,100.0,True
+SSP5,$4.20,2100,2,Morocco,MAR,100.0,True
+SSP5,$4.20,2100,3,Namibia,NAM,100.0,True
+SSP5,$4.20,2100,4,Nepal,NPL,100.0,True
+SSP5,$4.20,2100,5,Netherlands,NLD,100.0,True
+SSP5,$4.20,2100,6,New Zealand,NZL,100.0,True
+SSP5,$4.20,2100,7,Nicaragua,NIC,100.0,True
+SSP5,$4.20,2100,8,Niger,NER,100.0,True
+SSP5,$4.20,2100,9,Nigeria,NGA,100.0,True
+SSP5,$4.20,2100,10,North Macedonia,MKD,100.0,True
+SSP5,$8.30,2030,1,Zambia,ZMB,68.915,False
+SSP5,$8.30,2030,2,Lesotho,LSO,64.383,False
+SSP5,$8.30,2030,3,Comoros,COM,64.193,False
+SSP5,$8.30,2030,4,Central African Republic,CAF,63.897,False
+SSP5,$8.30,2030,5,Guinea-Bissau,GNB,62.413,False
+SSP5,$8.30,2030,6,Rwanda,RWA,61.301,False
+SSP5,$8.30,2030,7,Nigeria,NGA,58.931,False
+SSP5,$8.30,2030,8,Burkina Faso,BFA,57.268,False
+SSP5,$8.30,2030,9,Pakistan,PAK,57.066,False
+SSP5,$8.30,2030,10,Senegal,SEN,56.494,False
+SSP5,$8.30,2050,1,Central African Republic,CAF,57.574,False
+SSP5,$8.30,2050,2,Zambia,ZMB,56.729,False
+SSP5,$8.30,2050,3,Rwanda,RWA,56.141,False
+SSP5,$8.30,2050,4,Chad,TCD,52.463,False
+SSP5,$8.30,2050,5,Guinea-Bissau,GNB,50.069,False
+SSP5,$8.30,2050,6,Comoros,COM,49.287,False
+SSP5,$8.30,2050,7,Burundi,BDI,48.298,False
+SSP5,$8.30,2050,8,Niger,NER,48.1,False
+SSP5,$8.30,2050,9,Mozambique,MOZ,47.487,False
+SSP5,$8.30,2050,10,Sierra Leone,SLE,45.379,False
+SSP5,$8.30,2075,1,Zambia,ZMB,39.512,True
+SSP5,$8.30,2075,2,Central African Republic,CAF,39.072,True
+SSP5,$8.30,2075,3,Rwanda,RWA,38.273,True
+SSP5,$8.30,2075,4,Madagascar,MDG,37.604,True
+SSP5,$8.30,2075,5,Chad,TCD,37.486,True
+SSP5,$8.30,2075,6,Guinea-Bissau,GNB,36.064,True
+SSP5,$8.30,2075,7,Mozambique,MOZ,34.204,True
+SSP5,$8.30,2075,8,Mali,MLI,33.421,True
+SSP5,$8.30,2075,9,Comoros,COM,33.376,True
+SSP5,$8.30,2075,10,Burundi,BDI,33.327,True
+SSP5,$8.30,2100,1,Zambia,ZMB,26.042,True
+SSP5,$8.30,2100,2,Dominican Republic,DOM,25.23,True
+SSP5,$8.30,2100,3,South Africa,ZAF,24.648,True
+SSP5,$8.30,2100,4,Comoros,COM,24.636,True
+SSP5,$8.30,2100,5,Guinea-Bissau,GNB,22.897,True
+SSP5,$8.30,2100,6,Namibia,NAM,21.532,True
+SSP5,$8.30,2100,7,Slovakia,SVK,20.642,True
+SSP5,$8.30,2100,8,Bulgaria,BGR,18.123,True
+SSP5,$8.30,2100,9,Sao Tome and Principe,STP,17.867,True
+SSP5,$8.30,2100,10,North Macedonia,MKD,17.444,True
+SSP5,$10,2030,1,Central African Republic,CAF,74.568,False
+SSP5,$10,2030,2,Guinea-Bissau,GNB,72.931,False
+SSP5,$10,2030,3,Nigeria,NGA,69.656,False
+SSP5,$10,2030,4,Comoros,COM,69.638,False
+SSP5,$10,2030,5,Zambia,ZMB,69.348,False
+SSP5,$10,2030,6,Rwanda,RWA,68.894,False
+SSP5,$10,2030,7,Democratic Republic of the Congo,COD,67.824,False
+SSP5,$10,2030,8,Lesotho,LSO,66.691,False
+SSP5,$10,2030,9,Chad,TCD,65.023,False
+SSP5,$10,2030,10,Mozambique,MOZ,64.614,False
+SSP5,$10,2050,1,Central African Republic,CAF,65.813,False
+SSP5,$10,2050,2,Zambia,ZMB,65.54,False
+SSP5,$10,2050,3,Rwanda,RWA,60.465,False
+SSP5,$10,2050,4,Guinea-Bissau,GNB,58.287,False
+SSP5,$10,2050,5,Tanzania,TZA,57.386,False
+SSP5,$10,2050,6,Chad,TCD,56.497,False
+SSP5,$10,2050,7,Comoros,COM,55.767,False
+SSP5,$10,2050,8,Niger,NER,55.411,False
+SSP5,$10,2050,9,Burundi,BDI,55.397,False
+SSP5,$10,2050,10,Mozambique,MOZ,55.071,False
+SSP5,$10,2075,1,Rwanda,RWA,51.259,True
+SSP5,$10,2075,2,Guinea-Bissau,GNB,49.088,True
+SSP5,$10,2075,3,Zambia,ZMB,48.81,True
+SSP5,$10,2075,4,Central African Republic,CAF,46.422,True
+SSP5,$10,2075,5,Chad,TCD,46.085,True
+SSP5,$10,2075,6,Mozambique,MOZ,45.847,True
+SSP5,$10,2075,7,Comoros,COM,45.652,True
+SSP5,$10,2075,8,Madagascar,MDG,44.839,True
+SSP5,$10,2075,9,Sudan,SDN,43.2,True
+SSP5,$10,2075,10,Lesotho,LSO,40.978,True
+SSP5,$10,2100,1,Zambia,ZMB,36.602,True
+SSP5,$10,2100,2,Comoros,COM,35.334,True
+SSP5,$10,2100,3,Sao Tome and Principe,STP,34.046,True
+SSP5,$10,2100,4,Dominican Republic,DOM,30.334,True
+SSP5,$10,2100,5,Guinea-Bissau,GNB,29.376,True
+SSP5,$10,2100,6,South Africa,ZAF,29.284,True
+SSP5,$10,2100,7,Turkmenistan,TKM,29.182,True
+SSP5,$10,2100,8,Sierra Leone,SLE,27.492,True
+SSP5,$10,2100,9,Sudan,SDN,27.008,True
+SSP5,$10,2100,10,Rwanda,RWA,26.342,True

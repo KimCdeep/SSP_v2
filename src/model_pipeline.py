@@ -30,7 +30,13 @@ from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.neural_network import MLPRegressor
 import xgboost as xgb
-import lightgbm as lgb
+try:
+    import lightgbm as lgb
+    _LIGHTGBM_AVAILABLE = True
+except Exception:
+    lgb = None
+    _LIGHTGBM_AVAILABLE = False
+    print("WARNING: lightgbm unavailable — 'lightgbm' model will be skipped.")
 from pygam import LinearGAM, s
 
 from config import RANDOM_STATE, MODELS_DIR, DATA_FINAL_DIR, OUTPUTS_DIR
@@ -56,8 +62,9 @@ ALL_THRESHOLDS = list(THRESHOLD_COL_MAP.keys())
 
 # Model display order (for tables / plots)
 MODEL_NAMES = [
-    "xgboost_cpu", "xgboost_gpu", "lightgbm",
-    "random_forest", "gam", "ridge", "mlp",
+    n for n in ["xgboost_cpu", "xgboost_gpu", "lightgbm",
+                "random_forest", "gam", "ridge", "mlp"]
+    if n != "lightgbm" or _LIGHTGBM_AVAILABLE
 ]
 
 
@@ -112,7 +119,10 @@ def compute_metrics(y_true: np.ndarray, y_pred: np.ndarray) -> dict[str, float]:
 
 def _build_gam(n_features: int, n_splines: int = 20, lam: float = 0.6) -> LinearGAM:
     """Build a LinearGAM with one spline term per feature."""
-    terms = sum(s(i, n_splines=n_splines, lam=lam) for i in range(n_features))
+    splines = [s(i, n_splines=n_splines, lam=lam) for i in range(n_features)]
+    terms = splines[0]
+    for t in splines[1:]:
+        terms = terms + t
     return LinearGAM(terms=terms)
 
 
@@ -134,7 +144,7 @@ def _build_model(
             tree_method="hist", device=device,
             random_state=RANDOM_STATE, verbosity=0, **params,
         )
-    if name == "lightgbm":
+    if name == "lightgbm" and _LIGHTGBM_AVAILABLE:
         return lgb.LGBMRegressor(
             random_state=RANDOM_STATE, verbose=-1, **params,
         )
